@@ -1,0 +1,24 @@
+/* Universal reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* First box */
+.content-box {
+    box-sizing: content-box;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid blue;
+    margin: 20px;
+}
+
+/* Second box */
+.border-box {
+    box-sizing: border-box;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid green;
+    margin: 20px;
+}
