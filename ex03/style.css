@@ -1,0 +1,28 @@
+body {
+    background-color: white;
+}
+
+.named-color {
+    background-color: red;
+}
+
+.hex-color {
+    background-color: #3498DB;
+}
+
+.rgb-color {
+    background-color: rgb(46, 204, 113);
+}
+
+.rgba-color {
+    background-color: rgba(155, 89, 182, 0.5);
+}
+
+.opacity-box {
+    background-color: blue;
+    opacity: 0.5;
+}
+
+.rgba-box {
+    background-color: rgba(0, 0, 255, 0.5);
+}

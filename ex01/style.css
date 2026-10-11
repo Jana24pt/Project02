@@ -1,0 +1,37 @@
+/* Fixed navigation bar */
+.nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+/* Main content */
+main {
+    margin-top: 100px;
+}
+
+/* Card container */
+.card-container {
+    position: relative;
+    margin: 20px;
+    padding: 30px;
+    background-color: lightgray;
+}
+
+/* Notification badge */
+.notification-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+/* Back-to-top button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 20;
+}
